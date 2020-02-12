@@ -23,9 +23,11 @@ type
     BtnGo: TButton;
     EdtPlayer: TEdit;
     LblPlayer: TLabel;
+    BtnScoreBoard: TButton;
     procedure BtnLevelChangingEx(Sender: TObject; var AllowChange: Boolean; NewValue: Smallint;
       Direction: TUpDownDirection);
     procedure BtnGoClick(Sender: TObject);
+    procedure BtnScoreBoardClick(Sender: TObject);
   private
     FCreateGame: TCreateGame;
   public
@@ -36,6 +38,9 @@ var
   FrmStartScreen: TFrmStartScreen;
 
 implementation
+
+uses
+  ScoreBoard;
 
 {$R *.dfm}
 
@@ -49,6 +54,17 @@ procedure TFrmStartScreen.BtnLevelChangingEx(Sender: TObject; var AllowChange: B
 begin
   if (NewValue>=1) and (NewValue<=15) then
     LblLevel.Caption:=IntToStr(NewValue);
+end;
+
+procedure TFrmStartScreen.BtnScoreBoardClick(Sender: TObject);
+begin
+  if not Assigned(FrmScoreBoard) then begin
+    Application.CreateForm(TFrmScoreBoard,FrmScoreBoard);
+    FrmScoreBoard.Left:=Application.MainForm.Left+Width+10;
+    FrmScoreBoard.Top:=Application.MainForm.Top;
+    FrmScoreBoard.Height:=Application.MainForm.Height;
+  end else
+    FrmScoreBoard.Visible:=not FrmScoreBoard.Visible;
 end;
 
 end.
