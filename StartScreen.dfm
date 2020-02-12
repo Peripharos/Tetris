@@ -12,6 +12,9 @@ object FrmStartScreen: TFrmStartScreen
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  DesignSize = (
+    848
+    871)
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -183,5 +186,21 @@ object FrmStartScreen: TFrmStartScreen
     Font.Style = []
     ParentFont = False
     TabOrder = 2
+  end
+  object BtnScoreBoard: TButton
+    Left = 696
+    Top = 824
+    Width = 137
+    Height = 39
+    Anchors = [akLeft, akBottom]
+    Caption = 'Scoreboard'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = BtnScoreBoardClick
   end
 end

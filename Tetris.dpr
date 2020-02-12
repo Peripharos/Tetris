@@ -14,5 +14,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFrmMain, FrmMain);
+//  Application.CreateForm(TFrmScoreBoard, FrmScoreBoard);
   Application.Run;
 end.
