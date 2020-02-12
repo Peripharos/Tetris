@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019.12.30 08:37:48.378.pas,D:\Roaming\private\JAT\Dokumente\RAD Studio\Projekte\Unit2.pas=D:\Delphi2007\Projekte\Zuhause\Tetris\TetrisAnzeige.pas</Transaction>
+    <Transaction>2019.12.30 08:37:48.378.dfm,D:\Roaming\private\JAT\Dokumente\RAD Studio\Projekte\Unit2.dfm=D:\Delphi2007\Projekte\Zuhause\Tetris\TetrisAnzeige.dfm</Transaction>
+    <Transaction>2019.12.30 08:38:34.161.dproj,D:\Roaming\private\JAT\Dokumente\RAD Studio\Projekte\Project1.dproj=D:\Delphi2007\Projekte\Zuhause\Tetris\Tetris.dproj</Transaction>
+    <Transaction>2019.12.30 08:38:48.774.pas,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit1.pas=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas</Transaction>
+    <Transaction>2019.12.30 08:38:48.774.dfm,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit1.dfm=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.dfm</Transaction>
+    <Transaction>2019.12.30 08:39:10.464.pas,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit3.pas=D:\Delphi2007\Projekte\Zuhause\Tetris\StartMenü.pas</Transaction>
+    <Transaction>2019.12.30 08:39:10.464.dfm,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit3.dfm=D:\Delphi2007\Projekte\Zuhause\Tetris\StartMenü.dfm</Transaction>
+    <Transaction>2019.12.30 08:39:24.986.pas,D:\Delphi2007\Projekte\Zuhause\Tetris\StartMenü.pas=</Transaction>
+    <Transaction>2019.12.30 08:39:24.986.dfm,D:\Delphi2007\Projekte\Zuhause\Tetris\StartMenü.dfm=</Transaction>
+    <Transaction>2019.12.30 08:40:12.027.pas,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit3.pas=D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas</Transaction>
+    <Transaction>2019.12.30 08:40:12.027.dfm,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit3.dfm=D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.dfm</Transaction>
+    <Transaction>2019.12.30 08:40:21.222.pas,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit1.pas=D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas</Transaction>
+    <Transaction>2020.02.11 15:21:59.826.pas,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit1.pas=D:\Delphi2007\Projekte\Zuhause\Tetris\ScoreBoard.pas</Transaction>
+    <Transaction>2020.02.11 15:21:59.826.dfm,D:\Delphi2007\Projekte\Zuhause\Tetris\Unit1.dfm=D:\Delphi2007\Projekte\Zuhause\Tetris\ScoreBoard.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
