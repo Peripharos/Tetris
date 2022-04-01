@@ -1,23 +1,46 @@
 [Closed Files]
-File_0=TSourceModule,'D:\Delphi2007\Tools\FileUtils.pas',0,1,905,1,2526,0,0,{{8,0}
-File_1=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\vcl\ExtCtrls.pas',0,1,2214,1,2232,0,0,,
-File_2=TSourceModule,'D:\Delphi2007\Tools\NetUtils.pas',0,1,589,1,1536,0,0,{{8,0}
-File_3=TSourceModule,'D:\Delphi2007\Tools\APIs\Netapi32.pas',0,1,1257,1,1281,0,0,,
-File_4=TSourceModule,'D:\Delphi2007\Tools\APIs\ActiveDsApi.pas',0,1,276,1,299,0,0,,
-File_5=TSourceModule,'D:\Delphi2007\Projekte\jat_Tests\Test\Unit1.pas',0,1,10,41,39,0,0,,
-File_6=TSourceModule,'C:\Program Files (x86)\CodeGear\RAD Studio\5.0\source\Win32\vcl\Forms.pas',0,1,758,1,756,0,0,,
-File_7=TSourceModule,'C:\Program Files (x86)\CodeGear\RAD Studio\5.0\source\Win32\vcl\Controls.pas',0,1,1480,21,1600,0,0,,
-File_8=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\rtl\common\Classes.pas',0,1,71,1,96,0,0,,
+File_0=TSourceModule,'D:\Delphi2007\Tools\OffLists.pas',0,1,34,1,59,0,0,{{508,0}
+File_1=TSourceModule,'D:\Delphi2007\Projekte\Zuhause\BomberMan\StartScreen.pas',0,1,1,1,131,0,0,{{60,54}
+File_2=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\rtl\common\Contnrs.pas',0,1,26,15,26,0,0,,
+File_3=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\rtl\sys\System.pas',0,1,8804,1,8829,0,0,,
+File_4=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\rtl\common\Classes.pas',0,1,151,20,176,0,0,,
+File_5=TSourceModule,'D:\Delphi2007\Projekte\Dashboard Ferrero\DataLogik.pas',0,1,409,3,434,0,0,{{77,2}
+File_6=TSourceModule,'D:\Delphi2007\Projekte\Ausbildungsnachweis\Main.pas',0,1,1,1,1,0,0,,
+File_7=TSourceModule,'D:\Delphi2007\Projekte\Zuhause\Fernsehsender\Main.pas',0,1,1,1,1,0,0,,
+File_8=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\rtl\sys\SysUtils.pas',0,1,5558,1,5583,0,0,,
+File_9=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\rtl\win\Windows.pas',0,1,30017,1,30042,0,0,,
 
 [Modules]
-Module0=D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas
-Module1=D:\Delphi2007\Projekte\Zuhause\Tetris\TetrisAnzeige.pas
-Module2=D:\Delphi2007\Projekte\Zuhause\Tetris\Tetris.dproj
-Module3=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas
+Module0=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas
+Module1=D:\Delphi2007\Projekte\Zuhause\Tetris\Tetris.dproj
+Module2=D:\Delphi2007\Projekte\Zuhause\Tetris\ScoreBoard.pas
+Module3=default.htm
 Module4=D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas
-Module5=default.htm
-Count=6
+Module5=D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas
+Module6=D:\Delphi2007\Projekte\Zuhause\Tetris\TetrisAnzeige.pas
+Count=7
 EditWindowCount=1
+
+[D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Delphi2007\Projekte\Zuhause\Tetris\Tetris.dproj]
+ModuleType=TBaseProject
+
+[D:\Delphi2007\Projekte\Zuhause\Tetris\ScoreBoard.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
+
+[default.htm]
+ModuleType=TURLModule
+
+[D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
 
 [D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas]
 ModuleType=TSourceModule
@@ -29,31 +52,16 @@ ModuleType=TSourceModule
 FormState=1
 FormOnTop=0
 
-[D:\Delphi2007\Projekte\Zuhause\Tetris\Tetris.dproj]
-ModuleType=TBaseProject
-
-[D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas]
-ModuleType=TSourceModule
-FormState=1
-FormOnTop=0
-
-[D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas]
-ModuleType=TSourceModule
-FormState=1
-FormOnTop=0
-
-[default.htm]
-ModuleType=TURLModule
-
 [EditWindow0]
-ViewCount=6
-CurrentEditView=D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas
+ViewCount=7
+CurrentEditView=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas
 View0=0
 View1=1
 View2=2
 View3=3
 View4=4
 View5=5
+View6=6
 PercentageSizes=1
 Create=1
 Visible=1
@@ -92,8 +100,8 @@ WelcomePageURL=bds:/default.htm
 [View1]
 CustomEditViewType=TEditView
 Module=D:\Delphi2007\Projekte\Zuhause\Tetris\Tetris.dpr
-CursorX=1
-CursorY=12
+CursorX=55
+CursorY=18
 TopLine=1
 LeftCol=1
 Elisions=
@@ -102,45 +110,56 @@ EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\Tetris.dpr
 
 [View2]
 CustomEditViewType=TEditView
-Module=D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas
-CursorX=61
-CursorY=52
-TopLine=10
+Module=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas
+CursorX=5
+CursorY=22
+TopLine=19
 LeftCol=1
-Elisions={{40,54},{43,3},{''}}{{46,31},{50,3},{''}}
+Elisions={{31,47},{55,3},{''}}{{33,28},{43,6},{''}}{{57,74},{68,3},{''}}{{70,37},{78,3},{''}}
 Bookmarks=
-EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas
+EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas
 
 [View3]
 CustomEditViewType=TEditView
-Module=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas
+Module=D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas
 CursorX=1
-CursorY=41
-TopLine=7
+CursorY=63
+TopLine=28
 LeftCol=1
-Elisions={{31,47},{39,3},{''}}{{41,52},{51,3},{''}}{{53,37},{61,3},{''}}{{63,50},{67,3},{''}}
+Elisions={{47,54},{50,3},{''}}{{53,31},{57,3},{''}}
 Bookmarks=
-EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\Main.pas
+EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\StartScreen.pas
 
 [View4]
 CustomEditViewType=TEditView
 Module=D:\Delphi2007\Projekte\Zuhause\Tetris\TetrisAnzeige.pas
-CursorX=69
-CursorY=291
-TopLine=59
+CursorX=1
+CursorY=161
+TopLine=46
 LeftCol=1
-Elisions={{69,56},{79,3},{''}}{{81,57},{85,3},{''}}{{87,54},{90,3},{''}}{{92,61},{102,3},{''}}{{104,65},{107,3},{''}}{{109,75},{134,3},{''}}{{136,59},{140,3},{''}}{{142,34},{146,3},{''}}{{148,38},{152,3},{''}}{{154,33},{158,3},{''}}{{162,57},{198,3},{''}}{{200,38},{276,3},{''}}{{278,25},{289,3},{''}}
+Elisions={{71,56},{81,3},{''}}{{83,57},{87,3},{''}}{{89,59},{93,3},{''}}{{95,61},{98,3},{''}}{{100,54},{103,3},{''}}{{105,61},{115,3},{''}}{{117,65},{120,3},{''}}{{122,75},{147,3},{''}}{{149,34},{153,3},{''}}{{155,38},{159,3},{''}}{{161,33},{182,3},{''}}{{186,57},{222,3},{''}}{{224,38},{300,3},{''}}{{226,55},{241,6},{''}}{{243,54},{258,6},{''}}{{302,25},{313,3},{''}}
 Bookmarks=
 EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\TetrisAnzeige.pas
 
 [View5]
 CustomEditViewType=TEditView
-Module=D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas
+Module=D:\Delphi2007\Projekte\Zuhause\Tetris\ScoreBoard.pas
 CursorX=1
-CursorY=771
-TopLine=301
-LeftCol=131
-Elisions={{105,25},{156,3},{''}}{{107,24},{121,6},{''}}{{123,27},{131,6},{''}}{{133,28},{138,6},{''}}{{140,31},{146,6},{''}}{{158,25},{184,3},{''}}{{160,24},{174,6},{''}}{{186,45},{190,3},{''}}{{192,74},{198,3},{''}}{{200,47},{206,3},{''}}{{208,22},{211,3},{''}}{{213,55},{226,3},{''}}{{228,25},{233,3},{''}}{{235,49},{239,3},{''}}{{241,50},{245,3},{''}}{{247,26},{250,3},{''}}{{254,56},{268,6},{''}}{{302,49},{325,3},{''}}{{329,52},{334,3},{''}}{{338,52},{450,3},{''}}{{452,30},{470,3},{''}}{{472,26},{487,3},{''}}{{489,27},{504,3},{''}}{{506,22},{769,3},{''}}{{512,6},{537,17},{'CoBLue'}}{{539,6},{578,17},{'CoRed'}}{{580,6},{624,17},{'CoYellow'}}{{626,6},{669,17},{'CoGreen'}}{{671,6},{718,17},{'CoPurple'}}{{720,5},{767,17},{'CoPink'}}{{771,26},{775,3},{''}}{{777,58},{797,3},{''}}{{779,97},{782,6},{''}}{{799,82},{813,3},{''}}{{845,34},{914,3},{''}}{{847,31},{854,6},{''}}
+CursorY=139
+TopLine=31
+LeftCol=1
+Elisions={{53,53},{57,3},{''}}{{59,54},{62,3},{''}}{{65,25},{76,3},{''}}{{78,44},{102,3},{''}}{{104,34},{117,3},{''}}{{121,76},{125,3},{''}}{{129,67},{132,3},{''}}{{134,60},{137,3},{''}}{{139,32},{172,3},{''}}{{141,30},{156,6},{''}}
+Bookmarks=
+EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\ScoreBoard.pas
+
+[View6]
+CustomEditViewType=TEditView
+Module=D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas
+CursorX=16
+CursorY=471
+TopLine=207
+LeftCol=1
+Elisions={{105,25},{156,3},{''}}{{107,24},{121,6},{''}}{{123,27},{131,6},{''}}{{133,28},{138,6},{''}}{{140,31},{146,6},{''}}{{158,25},{184,3},{''}}{{160,24},{174,6},{''}}{{186,45},{190,3},{''}}{{192,74},{198,3},{''}}{{200,47},{206,3},{''}}{{208,22},{211,3},{''}}{{213,55},{226,3},{''}}{{228,25},{233,3},{''}}{{235,49},{239,3},{''}}{{241,50},{245,3},{''}}{{247,26},{250,3},{''}}{{252,28},{300,3},{''}}{{254,56},{268,6},{''}}{{302,49},{325,3},{''}}{{329,52},{334,3},{''}}{{338,52},{450,3},{''}}{{452,30},{470,3},{''}}{{472,26},{487,3},{''}}{{489,27},{504,3},{''}}{{506,22},{769,3},{''}}{{512,6},{537,17},{'CoBLue'}}{{539,6},{578,17},{'CoRed'}}{{580,6},{624,17},{'CoYellow'}}{{626,6},{669,17},{'CoGreen'}}{{671,6},{718,17},{'CoPurple'}}{{720,5},{767,17},{'CoPink'}}{{771,26},{775,3},{''}}{{777,58},{797,3},{''}}{{779,97},{782,6},{''}}{{799,82},{813,3},{''}}{{817,26},{822,3},{''}}{{824,26},{828,3},{''}}{{830,31},{834,3},{''}}{{836,26},{843,3},{''}}{{845,34},{914,3},{''}}{{847,31},{854,6},{''}}
 Bookmarks=
 EditViewName=D:\Delphi2007\Projekte\Zuhause\Tetris\Logik.pas
 
@@ -437,26 +456,6 @@ LRDockWidth=7151
 Dockable=1
 StayOnTop=0
 
-[PropertyInspector]
-PercentageSizes=1
-Create=1
-Visible=1
-Docked=1
-State=0
-Left=166
-Top=23
-Width=1250
-Height=8817
-MaxLeft=-1
-MaxTop=-1
-ClientWidth=1250
-ClientHeight=8817
-TBDockHeight=8817
-LRDockWidth=2115
-Dockable=1
-StayOnTop=0
-SplitPos=109
-
 [ModelViewTool]
 PercentageSizes=1
 Create=1
@@ -551,6 +550,26 @@ TBDockHeight=2298
 LRDockWidth=3562
 Dockable=1
 StayOnTop=0
+
+[PropertyInspector]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=166
+Top=23
+Width=1250
+Height=8817
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1250
+ClientHeight=8817
+TBDockHeight=8817
+LRDockWidth=2115
+Dockable=1
+StayOnTop=0
+SplitPos=109
 
 [BreakpointWindow]
 PercentageSizes=1

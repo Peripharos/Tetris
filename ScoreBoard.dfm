@@ -39,8 +39,6 @@ object FrmScoreBoard: TFrmScoreBoard
     ScrollBars = ssVertical
     TabOrder = 0
     OnDrawCell = GridDrawCell
-    ExplicitWidth = 333
-    ExplicitHeight = 470
     ColWidths = (
       50
       246

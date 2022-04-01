@@ -138,50 +138,37 @@ end;
 
 procedure TPlayerScoreList.Sort;
 
-  function GetHighestRemainingScore(const DoneList: TIDList): Integer;
+  procedure DeleteDoubleNames;
   var
     I: Integer;
-    Highest: Integer;
+    Players: string;
   begin
-    Highest:=0;
-    for I:= 0 to Count-1 do begin
-      if not DoneList.Exists(I) then begin
-        if Items[I].Score>Highest then begin
-          Result:=I;
-          Highest:=Items[I].Score;
-        end;
+    i:=0;
+    Players:='';
+    while (I < Count) do begin
+      if AnsiContainsStr(Players,Items[I].Name) then
+        Delete(I)
+      else begin
+        Players:=Players+Items[I].Name+'|';
+        Inc(I);
       end;
     end;
   end;
 
 var
-  IndexList: TIDList;
-  aPlayerScoreList: TPlayerScoreList;
-  I: Integer;
-  Players: string;
+  I,J: Integer;
+  InsertionValue: TPlayerScore;
 begin
-  IndexList:=TIDList.Create;
-  try
-    repeat
-      IndexList.Add(GetHighestRemainingScore(IndexList));
-    until IndexList.Count=Count;
-    aPlayerScoreList:=TPlayerScoreList.Create;
-    try
-      for I:=0 to IndexList.Count-1 do begin
-        if not AnsiContainsStr(Players,Items[IndexList[I]].Name) then begin
-          aPlayerScoreList.Add(TPlayerScore.Create(Items[IndexList[I]].Name,Items[IndexList[I]].Score));
-          Players:=Players+Items[IndexList[I]].Name+'|'
-        end;
-      end;
-      Clear;
-      for I:=0 to aPlayerScoreList.Count -1 do
-        Add(TPlayerScore.Create(aPlayerScoreList[I].Name,aPlayerScoreList[I].Score));
-    finally
-      aPlayerScoreList.Free;
+  for I:=0 to Count-1 do begin
+    InsertionValue:=TPlayerScore.Create(Items[I].Name,Items[I].Score);
+    J:=I;
+    while ((J>0)and(Items[J-1].Score < InsertionValue.Score)) do begin
+      SetItem(J,TPlayerScore.Create(Items[J-1].Name,Items[J-1].Score));
+      Dec(J);
     end;
-  finally
-    IndexList.Free;
+    SetItem(J,InsertionValue);
   end;
+  DeleteDoubleNames;
 end;
 
 end.

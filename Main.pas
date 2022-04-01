@@ -43,6 +43,8 @@ procedure TFrmMain.FormCreate(Sender: TObject);
   end;
 
 begin
+  Left:=(Screen.Width-Width)div 2;
+  Top:=(Screen.Height-Height)div 2;
   CreateScoreFile;
   Application.OnDeactivate:=AppDeactivate;
   FrmStartScreen:=TFrmStartScreen.Create(Self);

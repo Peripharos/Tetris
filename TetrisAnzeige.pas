@@ -170,7 +170,7 @@ begin
     Text:=TStringList.Create;
     try
       Text.LoadFromFile(FileName);
-      Text.Add(Player+':'+IntToStr(Game.Points));
+      Text.Add('"'+Player+'":'+IntToStr(Game.Points));
       FileSetAttr(FileName,0);
       Text.SaveToFile(FileName);
       FileSetAttr(FileName,0);
